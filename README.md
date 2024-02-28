@@ -7,7 +7,7 @@ i have create an blog app using react redux check it out
 have a look at what i have created
 [clickhere](https://redux-blog-app-eight.vercel.app/)
 
-# File Structure
+# code Structure 
 
 
     ── public
