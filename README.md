@@ -10,8 +10,7 @@ have a look at what i have created
 #  file structure 
 
 
-    ── public
-    └── vite.svg
+
     └── src
     ├── components
     │   ├── BlogFeed.jsx
