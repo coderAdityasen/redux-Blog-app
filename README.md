@@ -9,10 +9,10 @@ have a look at what i have created
 
 # File Structure
 
-.
-├── public
-│   └── vite.svg
-└── src
+
+    ── public
+    └── vite.svg
+    └── src
     ├── components
     │   ├── BlogFeed.jsx
     │   ├── CreateBlog.jsx
@@ -25,7 +25,6 @@ have a look at what i have created
     │   └── store.js
     ├── App.jsx
     └── Main.jsx
-
 
 
 # React + Vite
