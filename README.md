@@ -41,8 +41,14 @@ Currently, two official plugins are available:
 To deploy this project run
 
 ```bash
+  npm init
+```
+
+to install all depencies
+```bash
   npm install
 ```
+
 To live this project on localhost:5173
 
 ```bash
