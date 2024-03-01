@@ -4,11 +4,9 @@ import { Link, useParams } from 'react-router-dom';
 
 function DetailPage() {
   const { postid } = useParams();
-  // Convert postid to a string if needed
   const postIdString = String(postid);
 
   const posts = useSelector((state) => state.posts);
-  // Filter the posts array to find the post with the matching id
   const selectedPost = posts.find((item) => String(item.id) === postIdString);
 
   // Check if a post with the given id exists
