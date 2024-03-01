@@ -28,5 +28,9 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.4"
-  }
+  },
+  "description": "Hey there 😊\r i have create an blog app using react redux check it out",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }

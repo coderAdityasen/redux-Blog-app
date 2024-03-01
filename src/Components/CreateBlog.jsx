@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import { useDispatch } from "react-redux";
 import { addPost } from "../Features/PostSlices";
+import { useNavigate } from "react-router-dom";
 
 function CreateBlog() {
   const [title, setTitle] = useState("");
   const [description, setDescrip] = useState("");
+  const navigate = useNavigate();
 
   const dispatch = useDispatch();
 
@@ -13,8 +15,7 @@ function CreateBlog() {
     e.preventDefault();
 	console.log(title)
     dispatch(addPost({title, description}));
-    setTitle("");
-    setDescrip("");
+    navigate("/thanks")
   };
 
   return (
